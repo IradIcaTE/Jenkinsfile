@@ -3,7 +3,7 @@ pipeline {
     agent { label 'First' }
     
     environment {
-        ENVIRONMENT = 'dev'
+        ENVIRONMENT = 'prod'
     }
 
     stages {
